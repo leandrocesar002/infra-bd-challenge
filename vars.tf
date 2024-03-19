@@ -1,9 +1,9 @@
 variable "projectName" {
-  default = "db_challenge"
+  default = "dbchallenge"
 }
 
 variable "clusterName" {
-  default = "db_challenge"
+  default = "dbchallenge"
 }
 
 variable "regionDefault" {
