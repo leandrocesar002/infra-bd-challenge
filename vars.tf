@@ -1,9 +1,9 @@
 variable "projectName" {
-  default = "sonarqube"
+  default = "db_challenge"
 }
 
 variable "clusterName" {
-  default = "SonarQube"
+  default = "db_challenge"
 }
 
 variable "regionDefault" {
@@ -69,7 +69,7 @@ variable "AWSAccount" {
 variable "tags" {
   type = map(string)
   default = {
-    App      = "sonarqube",
+    App      = "db_challenge",
     Ambiente = "Desenvolvimento"
   }
 }
